@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>百家樂攻略大全｜新手入門、玩法規則、贏牌技巧與娛樂城推薦</title>
+  <meta name="description" content="2025最完整百家樂攻略，介紹百家樂規則、玩法技巧與下注忌諱，並推薦三大人氣娛樂城：WG娛樂城、威樂娛樂城、泊樂娛樂城，助你安全又聰明地贏得勝利！" />
+  <meta name="keywords" content="百家樂, 線上百家樂, 百家樂技巧, 百家樂規則, WG娛樂城, 威樂娛樂城, 泊樂娛樂城" />
+  <style>
+    /* ===== 基本設定 ===== */
+    body {
+      font-family: "Noto Sans TC", sans-serif;
+      background: radial-gradient(circle at top, #004225 0%, #000000 80%);
+      background-image: url('https://www.transparenttextures.com/patterns/pool-table.png');
+      background-repeat: repeat;
+      background-size: auto;
+      background-attachment: fixed;
+      color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
+    }
+    
+H1 {
+  display: flex;
+  justify-content: center; /* 水平置中 */
+  align-items: center;     /* 垂直置中（文字多行時） */
+  color: gold;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin: 20px auto; /* 自動左右邊距 */
+  width: fit-content; /* 讓背景剛好包住文字 */
+}
+
+    h1, h2, h3 {
+      text-align: center;
+      color: gold;
+      text-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+    }
+
+    /* ===== 導覽列設計 ===== */
+    .main-nav {
+      display: flex;
+      justify-content: center;
+      background: linear-gradient(to right, #222, #111);
+      padding: 12px 0;
+      border-top: 2px solid gold;
+      border-bottom: 2px solid gold;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+    }
+
+    .main-nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 2rem;
+    }
+
+    .main-nav a {
+      color: gold;
+      font-weight: bold;
+      font-size: 1.1rem;
+      text-decoration: none;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .main-nav a::after {
+      content: "";
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background-color: gold;
+      transition: width 0.3s ease;
+    }
+
+    .main-nav a:hover::after {
+      width: 100%;
+    }
+
+    @keyframes neonPulse {
+      0%, 100% { text-shadow: 0 0 5px gold, 0 0 10px orange; }
+      50% { text-shadow: 0 0 20px gold, 0 0 30px orange; }
+    }
+
+    .main-nav a:hover {
+      color: #fff;
+      animation: neonPulse 1s infinite alternate;
+      transform: scale(1.1);
+    }
+
+    /* ===== 主內容區 ===== */
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      background: rgba(0, 0, 0, 0.8);
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(255, 215, 0, 0.3);
+      position: relative;
+      overflow: hidden;
+    }
+
+    main::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: url('https://i.imgur.com/5cg6OeM.png') center/cover no-repeat;
+      opacity: 0.08;
+      z-index: 0;
+    }
+
+    main * {
+      position: relative;
+      z-index: 1;
+    }
+
+    section {
+      margin-bottom: 60px;
+      text-align: left;
+    }
+
+    p {
+      text-align: left;
+      margin-bottom: 1rem;
+    }
+
+    /* ===== 表格樣式 ===== */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+      background: rgba(20, 20, 20, 0.8);
+      border: 2px solid gold;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+    }
+
+    th, td {
+      border: 1px solid gold;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background: linear-gradient(to bottom, #333, #111);
+      color: gold;
+      text-shadow: 0 0 5px gold;
+    }
+
+    td {
+      color: #fff;
+    }
+
+    /* ===== 娛樂城卡片 ===== */
+    .casino-card {
+      background: rgba(30, 30, 30, 0.95);
+      border: 2px solid gold;
+      border-radius: 15px;
+      padding: 25px;
+      margin: 25px 0;
+      box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.4s ease;
+    }
+
+    .casino-card:hover {
+      transform: translateY(-6px) scale(1.02);
+      box-shadow: 0 0 25px gold, inset 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+
+    .casino-card h3 {
+      color: #ffd700;
+      text-shadow: 0 0 10px gold;
+    }
+
+    .casino-card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #ffec8b;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 14px;
+      border: 1px solid gold;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .casino-card a:hover {
+      background: gold;
+      color: #111;
+      box-shadow: 0 0 15px gold;
+      text-shadow: none;
+    }
+
+    /* ===== 響應式 ===== */
+    @media (max-width: 768px) {
+      main {
+        padding: 25px;
+      }
+      .main-nav ul {
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+      table {
+        font-size: 14px;
+      }
+    }
+    p a {
+  color: gold; /* 改成你想要的顏色 */
+  text-decoration: none; /* 去掉下劃線 */
+  transition: all 0.3s ease; /* 加上滑鼠懸停動畫 */
+}
+
+p a:hover {
+  color: #fffacd; /* 滑鼠移過時的顏色 */
+  text-shadow: 0 0 10px gold;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>百家樂攻略大全｜新手入門、玩法技巧與娛樂城推薦</h1>
+
+    <!-- 導覽列 -->
+    <nav class="main-nav">
+      <ul>
+        <li><a href="#intro">百家樂介紹</a></li>
+        <li><a href="#rules">遊戲規則</a></li>
+        <li><a href="#tips">贏牌技巧</a></li>
+        <li><a href="#avoid">下注忌諱</a></li>
+        <li><a href="#platforms">娛樂城推薦</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro">
+      <h2>百家樂介紹</h2>
+      <p><a href="https://dupig03.com/%E3%80%902024%E7%B7%9A%E4%B8%8A%E7%99%BE%E5%AE%B6%E6%A8%82%E6%8E%A8%E8%96%A6%E3%80%91%E7%9C%9F%E4%BA%BA%E7%8F%BE%E9%87%91%E7%99%BE%E5%AE%B6%E6%A8%82%E7%B2%BE%E9%81%B8%E6%8E%A8%E8%96%A6/">百家樂</a>（Baccarat）是世界上最具代表性的賭場遊戲之一，以簡單直覺的玩法與高勝率著稱。遊戲起源於15世紀義大利與法國貴族圈，後來傳入亞洲並在澳門、拉斯維加斯與線上娛樂城掀起熱潮。百家樂的核心精神在於「莊家與閒家誰的點數最接近9」，玩家只需押注其中一方即可，操作容易且節奏明快。</p>
+      <p>由於百家樂規則簡單、勝率明確，深受各年齡層玩家喜愛。線上百家樂平台通常提供即時真人視訊桌面，玩家能與莊家互動，體驗真實的賭場氛圍。</p>
+    </section>
+
+    <section id="rules">
+      <h2>百家樂規則</h2>
+      <p>遊戲以兩手牌為主：「莊家（Banker）」與「閒家（Player）」。每方起始發兩張牌，點數總和最接近9者為勝。牌面計算方式如下：</p>
+
+      <table>
+        <tr><th>牌面</th><th>點數</th></tr>
+        <tr><td>A（Ace）</td><td>1點</td></tr>
+        <tr><td>2 ~ 9</td><td>依牌面數字計算</td></tr>
+        <tr><td>10、J、Q、K</td><td>0點</td></tr>
+      </table>
+
+      <p>若總點數超過9，僅取個位數。例如：7與8相加為15，則算5點。若莊家或閒家任一方「天生牌」（即前兩張牌合計為8或9），該局立即結束並判定勝負。</p>
+    </section>
+
+    <section id="tips">
+      <h2>百家樂贏牌技巧</h2>
+      <p>雖然百家樂是機率性遊戲，但仍有技巧可提升勝率：</p>
+      <ul>
+        <li><strong>1. 長期押莊：</strong>根據統計，莊家勝率約為50.68%，略高於閒家，長期下注莊可降低損失。</li>
+        <li><strong>2. 避免投注和局：</strong>雖然和局（Tie）賠率高達8倍，但實際機率極低，不建議新手頻繁押注。</li>
+        <li><strong>3. 記錄牌路：</strong>許多老手會觀察路單（如大路、小路等）尋找規律，但要注意這並非保證勝利的方法。</li>
+        <li><strong>4. 設定停損與停利：</strong>控制情緒與資金，是成為長期贏家的關鍵。</li>
+      </ul>
+    </section>
+
+    <section id="avoid">
+      <h2>百家樂下注忌諱</h2>
+      <p>百家樂雖是簡單遊戲，但仍有幾項「玩家常見誤區」需要避免：</p>
+      <ol>
+        <li><strong>過度追牌：</strong>輸了就加倍下注是最危險的策略之一，容易導致短時間內全軍覆沒。</li>
+        <li><strong>忽視莊閒手續費：</strong>部分娛樂城抽取莊家5%佣金，需計入勝率考量。</li>
+        <li><strong>相信迷思：</strong>例如「連閒不可能五次」、「莊閒輪流開」等都屬心理偏誤。</li>
+        <li><strong>不懂時間控制：</strong>勝利時適時離場，比盲目繼續下注更能守住獲利。</li>
+      </ol>
+    </section>
+
+    <section id="platforms">
+      <h2>百家樂娛樂城推薦</h2>
+      <div class="casino-card">
+        <h3>第一名：WG娛樂城</h3>
+        <p>WG娛樂城以穩定的系統與高透明度著稱，真人百家樂桌面畫質清晰，支援多幣別交易，且提款快速無手續費。</p>
+        <a href="https://ck5788.wg1888.com/">立即前往 WG娛樂城</a>
+      </div>
+
+      <div class="casino-card">
+        <h3>第二名：威樂娛樂城</h3>
+        <p>威樂娛樂城主打高額返水與百家樂多桌投注模式，適合喜歡策略與速度感的玩家，擁有多國荷官選擇。</p>
+        <a href="https://dragon598.welove777.com/">立即前往 威樂娛樂城</a>
+      </div>
+
+      <div class="casino-card">
+        <h3>第三名：泊樂娛樂城</h3>
+        <p>泊樂娛樂城以娛樂體驗為主，介面簡潔、操作流暢，適合新手入門百家樂的首選平台。</p>
+        <a href="https://dragon598.welove777.com/">立即前往 泊樂娛樂城</a>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
